@@ -13,3 +13,6 @@ least_squares_smoking$coefficients
 
 #coefficient of determination
 summary(linear_model)$r.squared
+
+# Our null hypothesis is that the model is not statistically significant and our level of significance.
+#is 1%. The p value of the model is less than 0.01 so we reject the null hypothesis.
