@@ -26,10 +26,9 @@ getwd()
 
 # a) Histograms
 # Import data
-?read.table
-emis <- read.table("data/emissions.txt", header = TRUE, sep = "\t",
+emis <- read.table("text_data/emissions.txt", header = TRUE, sep = "\t",
                    row.names = 1)
-
+?read.table
 # See first/last rows of the table
 head(emis)
 tail(emis)
